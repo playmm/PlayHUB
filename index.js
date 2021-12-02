@@ -12,8 +12,9 @@ const html = data.data
 .map(user => {
 return '
 <div class="user">
+<p><imag> src="${user.avatar}" alt="${user.first_name}" /></p>
 <p>Name: ${user.first_name}</p>
-<p>Email: ${usee.first_email}</p>
+<p>Email: ${user.email}</p>
 </div>
 ';
 })

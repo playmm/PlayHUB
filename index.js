@@ -1,7 +1,7 @@
 function fetchData() {
 fetch("https://raw.githubusercontent.com/playmm/PlayHUB/main/data.json")
 .then(response => {
-if (!response => {
+if (!response.ok) {
 throw Error("ERROR");
 }
 return response.json();

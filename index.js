@@ -1,5 +1,5 @@
 function fetchData() {
-fetch("https://raw.githubusercontent.com/playmm/PlayHUB/main/data.json")
+fetch("https://reqres.in/api/users")
 .then(response => {
 if (!response.ok) {
 throw Error("ERROR");
